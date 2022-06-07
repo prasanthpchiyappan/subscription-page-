@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-size: border-box;
+    font-family:'poppins',sans-serif;
+    cursor: pointer;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right,#3f5efb,#fc466b);
+    display: flex;
+    
+    
+}
+.row{
+    display: inline-flex;
+    margin-top:18% ;
+    margin-left: 27%;
+    column-gap: 50px;
+
+}
+
+.box{
+    width: 15rem;
+    height: 18rem;
+    background: rgba(255,255, 255,0.06 );
+    box-shadow: 0 5px 13px 0 rgb(0,0,0,.2);
+    border-radius: 10px;
+
+}
+.box:hover{
+    transform: scale(1.03);
+}
+.box h4{
+    color: #FFFFFF;
+    margin-left: 36%;
+    margin-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.box h3{
+    margin-left: 25%;
+    margin-top: 7%;
+    font-size: 20px;
+}
+.box span{
+    font-size: 40px;
+}
+.contant p{
+    
+    margin-left: 24%;
+    font-size: 15px;
+    color: rgb(176, 166, 166);
+    padding-top: 10px;
+
+}
+.contant{
+    margin-top: 14%;
+}
+.room a{
+    text-decoration: none;
+    color:rgb(38, 38, 38);
+    margin-left: 33%;
+    padding-top: 30px;
+    
+
+}
+
+.room{
+    margin-top: 26%;
+    background: rgba(255,255, 255,0.1 );
+    height: 24px;
+    border-radius: 10px;
+    
+
+}
+.room:hover{
+    background: rgba(255,255, 255,0.4 );
+}
+h1{
+    margin-left: 60%;
+    color:#000000;
+    margin-top: 3%;
+}
